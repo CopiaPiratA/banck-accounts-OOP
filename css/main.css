@@ -1,0 +1,98 @@
+body {
+    background-color: rgb(40, 64, 92);
+}
+main {
+    margin: auto;
+    margin-top: 40px;
+    width: 90%;
+    height: 900px;
+}
+h2 {
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: auto;
+    margin-left: 45%;
+    color: rgb(178, 195, 197) ;
+}
+p , #opening-balance , #final-amount {
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color:  rgb(224, 232, 233);
+    margin: auto;
+}
+div {
+    text-align: center;
+    margin: auto;
+    width: 30%;
+    height: 50px;
+    margin: 10px;
+    margin-top: 10px;
+}
+button{
+    font-size: 20px;
+    width: 200px;
+    height: 50px;
+    margin:auto;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    background-color: rgb(24, 57, 103);
+}
+input[type='range'] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 90%;
+  height: 15px;
+  background-color: rgb(40, 64, 92);
+  outline: none;
+  padding: 0;
+  border-radius: 10px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 30px;
+  height: 15.5px;
+  background-color:  rgb(178, 195, 197);
+  cursor: pointer;
+  border-radius: 20%;
+}
+.buttons {
+    width: 100%;
+    text-align: center;
+}
+.account-data {
+    height: 70px;
+    margin-left: 30px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+#months-section {
+    width: 60%;
+    height: 50px;
+    margin: auto;
+    margin-top: 20px;
+    text-align: center;
+    background-color:  rgb(41, 82, 118);
+    border-radius: 10px;
+}
+#user-account , #savings-account , #checking-account {
+    width: 90%;
+    height: 150px;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    background-color: rgb(41, 82, 118);
+    flex-wrap: wrap;
+    text-align: center;
+    border-radius: 10px;
+}
+#monthly-interest-pharaph {
+    margin-top: 0px;
+}
+#user-balance {
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform:translate(-50%)
+}

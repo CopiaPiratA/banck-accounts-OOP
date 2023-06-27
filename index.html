@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
+    <title>Scotia Bank</title>
+</head> 
+
+<body>
+    <main>
+        <section id="user-account">
+            <p class="user-data">Nombre: Fulano De Tal</p>
+            <p class="user-data">C.I:2.424.424-1</p>
+            <p class="user-data">Nro cuenta: ES1000492352082414205416</p>
+            <p class="user-data" id="user-balance">Saldo: 4000 USD</p>
+        </section>
+        <section id="months-section">
+            <p id="number-of-months"> 30 Meses</p>
+            <input type="range" id="months-inp" max = "60" min="1">
+        </section>
+        <h2>cuenta de ahorro</h2>
+        <section id="savings-account">
+            <div id="opening-balance">
+                <p class="account-data"> monto inicial: 0 USD</p>
+            </div>
+            <div id="final-amount">
+                <p class="account-data"> monto final: 0 USD</p>
+            </div>
+            <div id="monthly-interest">
+                <p class="account-data" id="monthly-interest-pharaph"> interés mensual: 0%</p>
+            </div>
+            <div class="buttons">
+                <button id="deposit-btn">Depositar</button>
+            <button id="withdraw-btn">Retirar</button>
+            </div>
+        </section>
+        <!--
+        <h2>cuenta corriente</h2>
+        <section id="checking-account">
+            <div id="opening-balance">
+                <p class="account-data"> monto inicial: 0 USD</p>
+            </div>
+            <div id="final-amount">
+                <p class="account-data"> monto final: 0 USD</p>
+            </div>
+            <div class="buttons">
+                <button id="deposit-btn">Depositar</button>
+            <button id="withdraw-btn">Retirar</button>
+            </div>
+        </section>
+        -->
+    </main>
+    <script src="js/main.js"></script>
+</body>
+</html>
